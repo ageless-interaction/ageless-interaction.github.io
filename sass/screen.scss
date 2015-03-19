@@ -7,6 +7,222 @@
 
 $font : 'Muli', sans-serif;
 
+.logo{
+  text-align:center;
+  margin:10px;
+  img{
+    margin:0 auto;
+  }
+}
+
+.main-nav{
+  margin-top:10px;
+}
+
 body{
   font-family: $font;
+}
+
+.mb-wrap {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative; 
+}
+ 
+.mb-wrap p{
+    margin: 0;
+    padding: 0;
+}
+ 
+.mb-wrap blockquote {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+ 
+.mb-wrap cite {
+    font-style: normal;
+}
+
+.mb-style-3 {
+    width: 500px;
+}
+ 
+.mb-style-3 blockquote{
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 
+        inset 0 2px 0 rgba(188, 147, 200, 0.7), 
+        -5px -4px 25px rgba(0, 0, 0, 0.3);
+}
+
+.mb-style-3 blockquote:after, 
+.mb-style-3 blockquote:before  {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+ 
+.mb-style-3 blockquote:after  {
+    border-top-color: #ffffff;
+    border-width: 10px;
+    left: 65%;
+    margin-left: -10px;
+}
+ 
+.mb-style-3 blockquote:before {
+    border-top-color: rgba(0,0,0,0.01);
+    border-width: 11px;
+    left: 65%;
+    margin-left: -11px;
+}
+
+.mb-style-3 blockquote p {
+    font-size: 24px;
+    color: #b4b4b4;
+    font-weight: 400;
+    line-height: 40px;
+    font-style: italic;
+    text-indent: 100px;
+    position: relative;
+}
+
+.mb-style-3 .mb-attribution {
+    text-align: right;
+    padding: 20px 100px 20px 20px;
+    position: relative;
+}
+
+.mb-style-3 .mb-thumb {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    background: url(../images/bronte.jpg) no-repeat center center;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    box-shadow: 
+        inset 1px 1px 4px rgba(0,0,0,0.5),
+        0 2px 3px rgba(0,0,0,0.6);
+}
+
+.mb-style-3 .mb-author{
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(188, 147, 200, 1);
+    text-shadow: 0 1px 1px rgba(255,255,255,0.7);
+}
+ 
+.mb-style-3 cite a{
+    font-weight: 700;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+ 
+.mb-style-3 cite a:hover{
+    color: rgba(188, 147, 200, 1);
+    text-shadow: 0 1px 1px rgba(255,255,255,0.7);
+}
+
+header{
+    font-size:16px;
+    text-transform: uppercase;
+    font-family: Helvetica Neue;
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-weight : 200;
+}
+#slider1_container{
+    margin: 0 auto;
+}
+.intro-text{
+    margin-top: 20px;
+    line-height: 22px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size:22px;
+    p{
+        margin: 30px;
+    }
+    .mission{
+        font-style: italic;
+        font-weight: bold;
+        font-size:35px;
+        line-height: 45px;
+    }
+    .bullets{
+        list-style-type: disc;
+        margin:20px;
+    }
+}
+.social-links {
+    margin-top:50px;
+    img{
+        margin: 20px;
+    }
+}
+.nav{
+    padding-left:7%;
+}
+.experience_video{
+    margin-top:30px;
+    font-family: 'Lato', sans-serif;
+    
+    text-align:center;
+    h1{
+    font-size:40px;
+    margin-bottom: 40px;
+    }
+    margin-bottom:100px;
+}
+
+.clear{
+    clear: both;
+}
+
+.get_involved{
+    h1{
+    font-size:30px;
+    }
+    p{
+    margin : 10px;
+    font-size: 18px;
+    }
+    .image_wrap{
+        padding-left: 11%;
+    }
+    img{
+    float:left;
+    height:400px;
+    margin-right: 20px;
+    }
+    .get_involved_form{
+        margin: 20px;
+        padding-top: 20px;
+        font-size: 40px;
+    }
+}
+
+.coming_soon{
+    h1{
+    font-size: 30px;
+    }
+    margin-bottom:40px;
+}
+
+footer{
+    width: 100%;
+    background: #201a16;
+    color : #fff;
+    padding:40px 0px 40px 0px;
+    text-align:center;
 }

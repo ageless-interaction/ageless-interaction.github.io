@@ -68,6 +68,258 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 10, ../sass/screen.scss */
+.logo {
+  text-align: center;
+  margin: 10px;
+}
+/* line 13, ../sass/screen.scss */
+.logo img {
+  margin: 0 auto;
+}
+
+/* line 18, ../sass/screen.scss */
+.main-nav {
+  margin-top: 10px;
+}
+
+/* line 22, ../sass/screen.scss */
 body {
   font-family: "Muli", sans-serif;
+}
+
+/* line 26, ../sass/screen.scss */
+.mb-wrap {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+}
+
+/* line 33, ../sass/screen.scss */
+.mb-wrap p {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 38, ../sass/screen.scss */
+.mb-wrap blockquote {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* line 44, ../sass/screen.scss */
+.mb-wrap cite {
+  font-style: normal;
+}
+
+/* line 48, ../sass/screen.scss */
+.mb-style-3 {
+  width: 500px;
+}
+
+/* line 52, ../sass/screen.scss */
+.mb-style-3 blockquote {
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: inset 0 2px 0 rgba(188, 147, 200, 0.7), -5px -4px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* line 61, ../sass/screen.scss */
+.mb-style-3 blockquote:after,
+.mb-style-3 blockquote:before {
+  top: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* line 72, ../sass/screen.scss */
+.mb-style-3 blockquote:after {
+  border-top-color: #ffffff;
+  border-width: 10px;
+  left: 65%;
+  margin-left: -10px;
+}
+
+/* line 79, ../sass/screen.scss */
+.mb-style-3 blockquote:before {
+  border-top-color: rgba(0, 0, 0, 0.01);
+  border-width: 11px;
+  left: 65%;
+  margin-left: -11px;
+}
+
+/* line 86, ../sass/screen.scss */
+.mb-style-3 blockquote p {
+  font-size: 24px;
+  color: #b4b4b4;
+  font-weight: 400;
+  line-height: 40px;
+  font-style: italic;
+  text-indent: 100px;
+  position: relative;
+}
+
+/* line 96, ../sass/screen.scss */
+.mb-style-3 .mb-attribution {
+  text-align: right;
+  padding: 20px 100px 20px 20px;
+  position: relative;
+}
+
+/* line 102, ../sass/screen.scss */
+.mb-style-3 .mb-thumb {
+  display: block;
+  width: 70px;
+  height: 70px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  background: url(../images/bronte.jpg) no-repeat center center;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.5), 0 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* line 117, ../sass/screen.scss */
+.mb-style-3 .mb-author {
+  font-weight: 700;
+  font-size: 18px;
+  color: #bc93c8;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+/* line 124, ../sass/screen.scss */
+.mb-style-3 cite a {
+  font-weight: 700;
+  font-style: italic;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* line 131, ../sass/screen.scss */
+.mb-style-3 cite a:hover {
+  color: #bc93c8;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+/* line 136, ../sass/screen.scss */
+header {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: Helvetica Neue;
+  letter-spacing: 2px;
+  font-size: 17px;
+  font-weight: 200;
+}
+
+/* line 144, ../sass/screen.scss */
+#slider1_container {
+  margin: 0 auto;
+}
+
+/* line 147, ../sass/screen.scss */
+.intro-text {
+  margin-top: 20px;
+  line-height: 22px;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+}
+/* line 153, ../sass/screen.scss */
+.intro-text p {
+  margin: 30px;
+}
+/* line 156, ../sass/screen.scss */
+.intro-text .mission {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 45px;
+}
+/* line 162, ../sass/screen.scss */
+.intro-text .bullets {
+  list-style-type: disc;
+  margin: 20px;
+}
+
+/* line 167, ../sass/screen.scss */
+.social-links {
+  margin-top: 50px;
+}
+/* line 169, ../sass/screen.scss */
+.social-links img {
+  margin: 20px;
+}
+
+/* line 173, ../sass/screen.scss */
+.nav {
+  padding-left: 7%;
+}
+
+/* line 176, ../sass/screen.scss */
+.experience_video {
+  margin-top: 30px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-bottom: 100px;
+}
+/* line 181, ../sass/screen.scss */
+.experience_video h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 188, ../sass/screen.scss */
+.clear {
+  clear: both;
+}
+
+/* line 193, ../sass/screen.scss */
+.get_involved h1 {
+  font-size: 30px;
+}
+/* line 196, ../sass/screen.scss */
+.get_involved p {
+  margin: 10px;
+  font-size: 18px;
+}
+/* line 200, ../sass/screen.scss */
+.get_involved .image_wrap {
+  padding-left: 11%;
+}
+/* line 203, ../sass/screen.scss */
+.get_involved img {
+  float: left;
+  height: 400px;
+  margin-right: 20px;
+}
+/* line 208, ../sass/screen.scss */
+.get_involved .get_involved_form {
+  margin: 20px;
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+/* line 215, ../sass/screen.scss */
+.coming_soon {
+  margin-bottom: 40px;
+}
+/* line 216, ../sass/screen.scss */
+.coming_soon h1 {
+  font-size: 30px;
+}
+
+/* line 222, ../sass/screen.scss */
+footer {
+  width: 100%;
+  background: #201a16;
+  color: #fff;
+  padding: 40px 0px 40px 0px;
+  text-align: center;
 }
