@@ -259,7 +259,7 @@ header {
 
 /* line 173, ../sass/screen.scss */
 .nav {
-  padding-left: 7%;
+  padding-left: 2%;
 }
 
 /* line 176, ../sass/screen.scss */
@@ -288,38 +288,47 @@ header {
 .get_involved p {
   margin: 10px;
   font-size: 18px;
+  line-height: 35px;
 }
-/* line 200, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 .get_involved .image_wrap {
   padding-left: 11%;
 }
-/* line 203, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 .get_involved img {
   float: left;
   height: 400px;
   margin-right: 20px;
 }
-/* line 208, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 .get_involved .get_involved_form {
   margin: 20px;
   padding-top: 20px;
   font-size: 40px;
 }
 
-/* line 215, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 .coming_soon {
   margin-bottom: 40px;
 }
-/* line 216, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 .coming_soon h1 {
   font-size: 30px;
 }
 
-/* line 222, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 footer {
   width: 100%;
   background: #201a16;
   color: #fff;
   padding: 40px 0px 40px 0px;
   text-align: center;
+}
+
+/* line 231, ../sass/screen.scss */
+.about_text {
+  color: #000;
+  margin: 10px;
+  font-size: 18px;
+  line-height: 35px;
 }

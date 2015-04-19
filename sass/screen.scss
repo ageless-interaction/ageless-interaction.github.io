@@ -171,7 +171,7 @@ header{
     }
 }
 .nav{
-    padding-left:7%;
+    padding-left:2%;
 }
 .experience_video{
     margin-top:30px;
@@ -196,6 +196,7 @@ header{
     p{
     margin : 10px;
     font-size: 18px;
+    line-height: 35px;
     }
     .image_wrap{
         padding-left: 11%;
@@ -225,4 +226,11 @@ footer{
     color : #fff;
     padding:40px 0px 40px 0px;
     text-align:center;
+}
+
+.about_text{
+    color : #000;
+    margin : 10px;
+    font-size: 18px;
+    line-height: 35px;
 }
